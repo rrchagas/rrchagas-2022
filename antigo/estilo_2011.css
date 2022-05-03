@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; background-color:#850006; background-image:url(images/index_2011.jpg); background-position:top; background-position:center; font-family:Georgia, "Times New Roman", Times, serif}
+#geral{  width:1000px; height:800px; margin:0 auto;}
+
+#link{ padding:500px 0 0 0; text-align:center; color:#FFFFFF;}
+
+			.link01{ color:#fff;}
+			a.link01{ color:#fff; text-decoration:none;  }
+			a:hover.link01{ color:#fff; text-decoration:underline;}
+
+			.link02{ color:#850006;}
