@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0; font-family:Georgia, "Times New Roman", Times, serif; color:#5f5f5f; background-color:#FFFFFF; /*background-color:#cdcdcd; background-image:url(images/patther_01.jpg);*/}
+
+#madre{width:960px; margin:0 auto; padding:40px 20px 0 20px; background-color:#fff; /*background-image:url(images/bg_novo.jpg); background-position:top; background-repeat:repeat-x;*/}
+	#topo{background-image:url(images/1px_linha.jpg); background-position:top; background-repeat:repeat-x;  padding:20px 0 20px 0;}
+
+
+	#corpo{ width:100%; background-image:url(images/1px_linha.jpg); background-position:top; background-repeat:repeat-x; padding:40px 0 0 0;}
+#corpo_box1{width:180px; float:left;}
+		
+		#menu{ width:180px; left:0px; margin:0; padding:0; position: static;  top:1px;	}
+
+			#menu ul{list-style:none; margin:0; padding:0;} 
+			#menu li{ display:block; width:98%; float:left; padding:2px; font-size:11px; } 
+			#menu li a{ display:block; float:left; color:#5f5f5f; text-decoration:none; padding:2px; margin:0;} 
+			#menu li a:hover{ display:block; float:left; background-color:#999999; color:#FFFFFF; padding:2px; margin:0;}
+
+			.menu_titulo{ margin:10px 0 0 0;} 					
+
+			.biografia{ color:#999999;  text-align: left; padding:2px; background-color:#d4d4d4; }
+			a.biografia{ color:#ffffff;  text-align:left; padding:2px; background-color:#d4d4d4;}
+			a:hover.biografia{ color:#ffffff; text-align:left; padding:2px; background-color:#999999;}
+
+			.url{ color:#999999;  text-align: left; padding:2px;}
+			a.url{ color:#999999;  text-align:left; padding:2px; text-decoration:none; }
+			a:hover.url{ color:#ffffff; text-align:left; padding:2px; color:#999999; text-decoration:underline; }
+
+			.url2{ color:#999999;  text-align: left; padding:2px;}
+			a.url2{ color:#999999;  text-align:left; padding:2px; text-decoration:underline; }
+			a:hover.url2{ color:#ffffff; text-align:left; padding:2px; color:#999999; text-decoration:none; }
+
+			.url3{ color:#fff; background-color:#333333; text-align: left; padding:2px;}
+			a.url3{ color: #fff; background-color:#333333; text-align:left; padding:2px; text-decoration:underline; }
+			a:hover.url3{ color:#333333; background-color:#fff; text-align:left; padding:2px; color:#999999; text-decoration:none; }
+
+
+
+		#corpo_box2{ width:740px; padding:0 20px 0 20px; float: right; font-size:11px; }
+			#corpo_box2 p{ margin:5px 0 8px 0; }		
+			#corpo_box2 h1{ font-size:18px; text-transform:lowercase; font-style:italic; margin:0; padding:0; }		
+			.home{ color:#5f5f5f;  text-align: left; padding:2px; }
+			a.home{ color:#5f5f5f;  text-align:left; padding:2px;}
+			a:hover.home{ color:#5f5f5f; text-align:left; padding:2px; background-color:#999999; color:#FFFFFF; }
+
+
+			.curriculo{ color:#fff;  text-align: left; padding:2px; background-color:#4a0e10; text-decoration:none; }
+			a.curriculo{ color:#fff;  text-align:left; padding:2px; background-color:#4a0e10; text-decoration:none;}
+			a:hover.curriculo{ color:#5f5f5f; text-align:left; padding:2px; background-color:#999999; color:#FFFFFF; text-decoration:none; }
+
+
+			.profile{ color:#999999!important;  text-align: left; padding:2px; background-color:#d4d4d4; text-decoration:none; }
+			a.profile{ color:#999999!important;  text-align:left; padding:2px; background-color:#d4d4d4; text-decoration:none;}
+			a:hover.profile{ color:#fff!important; text-align:left; padding:2px; background-color:#999999; text-decoration:none; }
+
+
+			
+			
+			.corpo_box2_chamadas01{float:left; width:200px; margin:0px 30px 40px 0 ;}
+				.corpo_box2_chamadas01 h1{ font-size:11px; font-style:italic;  margin:0; padding:0;}
+				.corpo_box2_chamadas01 p{ margin:0; padding:0;}
+				.corpo_box2_chamadas01 a{ text-decoration:none; color:#999999;}
+				.corpo_box2_chamadas01 a:hover{ text-decoration:none; color:#5f5f5f; }				
+			
+
+		   #corpo_box2_01{padding:20px 0 20px 0; background-image:url(css/images/1px_linha.jpg); background-position:bottom; background-repeat:repeat-x; margin:10px 0 20px 0; }
+		   
+		   #corpo_box2_02{width:340px; float:left; margin:0 40px 0 0px;}
+		   
+		   #corpo_box2_03{width:360px; float:left}
+
+
+	#rodape{ clear:both; font-size:10px; padding:5px 0 10px 0; margin:20px 0 10px 0; background-image:url(css/images/1px_linha.jpg); background-position:top; background-repeat:repeat-x;}
