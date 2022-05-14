@@ -48,7 +48,7 @@ body {
     font-size: 15px;    
     line-height: 30px;
     font-weight: 400;       
-    color: #333;
+    color: #908F8F;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -70,11 +70,7 @@ body img {
     height: auto;
     display: block;
 }
-.encomenda{
-	
-	margin-top: 150px!important;
-	
-}
+
 .doc-loader {
     position: fixed;
     left: 0px;
@@ -82,7 +78,7 @@ body img {
     width: 100%;
     height: 100%;
     z-index: 99999;
-    background-color: #fff;
+    background-color: #333;
 }
 
 .doc-loader img {
@@ -135,10 +131,11 @@ a.button:hover {
 
 
 
-.button3 {
+
+input.button {
     display: inline-block;
-    color: #CCC;
-    border: 2px solid #ccc;
+    color: #faefff;
+    border: 2px solid #fff;
     text-align: center;
     padding: 12px 38px;
     cursor: pointer;
@@ -146,37 +143,17 @@ a.button:hover {
     text-decoration: none;
     border-radius: 50px;
     transition: all .2s linear;
-	font-size: 25px;
-	background-color: none;
 }
 
-
-.button2 {
-    display: inline-block;
-    color: #fff;
-    border: 2px solid #ccc;
-    text-align: center;
-    padding: 12px 38px;
-    cursor: pointer;
-    vertical-align: middle;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: all .2s linear;
-	font-size: 25px;
-	background-color: red;
-}
-
-.button2:active {
+input.button:active {
     position: relative;
     top: 1px;   
 }
 
-.button2:hover {
-    color: #fff;
-    background-color: #333;
-	font-size: 25px;
+input.button:hover {
+    color: #000;
+    background-color: #ccc;
 }
-
 
 
 
@@ -186,12 +163,10 @@ a.button:hover {
 
 .content-left {
     position: fixed;
-	float: right;
     width: 380px;
-    background-color: #fff;
+    background-color: #333333;
     height: 100vh;
     z-index: 1;
-
 }
 
 .content-left::-webkit-scrollbar-track {
@@ -242,7 +217,7 @@ a.button:hover {
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
     top: 8px;
-    background-color: #333;
+    background-color: #faefff;
 }
 
 #toggle:before {
@@ -260,7 +235,7 @@ a.button:hover {
 #toggle.on:before {
     -webkit-transform: rotate3d(0, 0, 1, 45deg) translate3d(0, 0, 0);
     transform: rotate3d(0, 0, 1, 45deg) translate3d(0, 0, 0);   
-    background-color: #333;
+    background-color: #fff;
     margin-left: 0;
     width: 26px;
 }
@@ -268,7 +243,7 @@ a.button:hover {
 #toggle.on:after {
     -webkit-transform: rotate3d(0, 0, 1, -45deg);
     transform: rotate3d(0, 0, 1, -45deg);
-    background-color: #333;
+    background-color: #fff;
     width: 26px;
 }
 
@@ -285,7 +260,7 @@ a.button:hover {
     transition: all 0.25s;
     margin-left: 0;
     top: 8px;
-    background-color: #333;
+    background-color: #faefff;
 }
 
 #toggle:hover .menu-line {
@@ -381,7 +356,7 @@ img.my-info-signature {
 
 .current-big-num {
     font-size: 160px;
-    -webkit-text-stroke: 3px #ccc;
+    -webkit-text-stroke: 3px #666;
     color: transparent;
     font-weight: 800;
     line-height: 100%;
@@ -479,7 +454,7 @@ img.my-info-signature {
 
 .menu-holder {
     padding: 120px 50px 0 75px;
-    background-color: #fff;
+    background-color: #666666;
     width: 380px;
     height: 100%;
     min-height: 100vh;
@@ -508,7 +483,7 @@ img.my-info-signature {
 .sm-clean a:hover, 
 .sm-clean a:focus, 
 .sm-clean a:active {
-    color: #333;
+    color: #ffffff;
     padding: 5px 0;
     font-size: 28px;
     line-height: 50px;
@@ -569,7 +544,7 @@ img.my-info-signature {
 }
 
 .section {
-    background-color: #fff;
+    background-color: #424242;
     position: relative;
     padding-top: 150px;
 }
@@ -590,7 +565,7 @@ img.my-info-signature {
     display: flex;
     display: -webkit-flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #f9f0ff;
 }
 
 h2.section-title {
@@ -621,7 +596,7 @@ h2.section-title {
 
 .site-des {
     font-size: 28px;
-    color: #333;
+    color: #492d31;
 }
 
 h1.entry-title {
@@ -636,7 +611,7 @@ h2.entry-title {
     font-size: 40px;
     line-height: 94px;
     font-weight: 800;
-    color: #333;
+    color: #fff;
 }
 
 
@@ -738,7 +713,7 @@ h2.entry-title {
 .category-filter-icon {
     width: 20px;
     height: 3px;
-    background-color: #333;
+    background-color: #fff;
     float: right;
     transition: width .3s ease;
 }
@@ -753,7 +728,7 @@ h2.entry-title {
     display: block;
     width: 10px;
     height: 3px;
-    background-color: #333;
+    background-color: #fff;
     transform: translate(-5px,8px);
     transition: transform .3s ease;
 }
@@ -768,7 +743,7 @@ h2.entry-title {
     display: block;
     width: 10px;
     height: 3px;
-    background-color: #333;
+    background-color: #fff;
     transform: translate(10px,11px);
     transition: transform .3s ease;
 }
@@ -1096,7 +1071,7 @@ div.pp_default .pp_description {
 
 .owl-theme .owl-dots .owl-dot span {
     margin: 0;
-    background-color: #ccc;
+    background-color: #faefff;
     transition: all .3s ease;
     width: 18px;
     height: 18px;
@@ -1110,11 +1085,11 @@ div.pp_default .pp_description {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ccc;
+    background-color: #faefff;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #333;
+    background-color: #000000;
 }
 
 
@@ -1318,7 +1293,7 @@ p.skill-circle-text {
 
 /* ===================================
     10. Contact Section CSS
-
+====================================== */
 
 .contact-form {
     padding: 65px;
@@ -1414,7 +1389,7 @@ p.contact-submit-holder {
     line-height: 25px;
     opacity: 1;    
 }
-====================================== */
+
 
 /* ===================================
     11. Responsive CSS
